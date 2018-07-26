@@ -1,0 +1,56 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="ResumeProject.MasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+
+
+
+
+
+
+
+<head>
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server"></asp:ContentPlaceHolder>
+
+</head>
+
+    
+
+
+<body id="backcolor">
+
+    <table width="90%" border="2">
+        <thead>
+                <tr>
+                 <th><a href ="LoginPage.aspx">Login Page</a></th>
+                 <th> <a href="Default.aspx">Home Page</a></th>
+                 <th> <a href="info.aspx">Information About Me</a></th>
+                 <th><a href="MoreInfo.aspx">My References</a></th>
+       
+                </tr>
+
+        </thead>
+    </table>
+    <br />
+
+
+    <form id="form1" runat="server">
+    <br />
+
+
+        <div>
+            
+         <h1 style="color:blue">Austins Resume</h1>
+            
+            
+
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
+
+

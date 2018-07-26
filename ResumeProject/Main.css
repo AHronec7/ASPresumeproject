@@ -1,0 +1,40 @@
+﻿#backcolor {
+    background: linear-gradient(to bottom #605C4E, #A49966)repeat center fixed;
+}
+
+
+.orange {
+    height: 5px;
+    Width: 1500px;
+    background-color: orange;
+}
+
+
+.blue {
+    height: 5px;
+    width: 1500px;
+    background-color: blue;
+}
+
+.header {
+    text-shadow: 2px 2px #4286f4;
+    font-size: 20px;
+    position: relative;
+    font: verdana;
+}
+
+.align{
+    text-align:center;
+}
+
+.login{
+       margin-top: 15px;
+       
+        width: 70px;
+        
+}
+
+.Btncolor{
+          color: red;
+          
+}
